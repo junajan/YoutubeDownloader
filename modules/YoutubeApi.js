@@ -39,7 +39,7 @@ exports.fetchList = function(url, done) {
     var code = url.match(/list=([^&]*)/i);
 
     if (!code)
-        return cb("This is not valid playlist link.");
+        return done("This is not valid playlist link.");
 
     getJsonList(code[1], done);
 }
