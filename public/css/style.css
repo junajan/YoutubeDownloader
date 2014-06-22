@@ -137,6 +137,13 @@ input.button:hover{
     bottom:0;
 }
 
+.footText {
+    display: inline-block;
+    margin-right: 4px;
+    position:relative;
+    top: -15px;
+}
+
 .foot a {
     color: white;
 }
@@ -153,16 +160,26 @@ input.button:hover{
 .foot .fb_icon {
     
     background-image: url("../img/btn_facebook.png");
+}
+
+.foot .git_icon {
+    
+    background-image: url("../img/git_icon.png");
+}
+
+.foot .link {
+
     background-repeat: no-repeat;
     background-position: top left;
     width: 43px;
-    height: 42px;
+    height: 43px;
     display: inline-block;
+    margin-right: 5px;
 }
 
-.foot .fb_icon:hover {
+.foot .link:hover {
     
-    background-position: bottom left;
+    background-position: left -43px;
 }
 
 .foot>div {
