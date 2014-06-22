@@ -99,6 +99,7 @@ a.button1:hover {
     text-decoration: none;
 }
 
+
 input.button {
     
     background-color: transparent;
@@ -110,7 +111,7 @@ input.button {
     cursor: pointer;
     color: #18B86E;
     vertical-align: top;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 18px;
 }
 
@@ -232,13 +233,29 @@ h2 small {
 
 
 .inputSize {
-    width: 80%;
+    width: 765px;
     height: 40px;
     padding: 5px;
     font-size: 30px;
 
     text-align: left;
     display: block;
+}
+
+
+.playlist-wrapper {
+    width: 780px;
+}
+
+.fill {
+    position:relative;
+    top: 5px;
+    color: #18b86e;
+}
+
+.fill:hover {
+
+    text-decoration: none;
 }
 
 .fancy_style .error {
