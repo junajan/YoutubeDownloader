@@ -9,7 +9,7 @@ Installation
 
     npm install
     // replace process.nextTick with setImmediate (hot patch)
-    sed 's/process.nextTick/setImmediate/g' ./node_modules/express-zip/node_modules/zipstream > ./node_modules/express-zip/node_modules/zipstream
+    sed 's/process.nextTick/setImmediate/g' ./node_modules/express-zip/node_modules/zipstream/zipstream.js > ./node_modules/express-zip/node_modules/zipstream/zipstream.js
 
 
 Usage
