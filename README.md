@@ -1,4 +1,19 @@
 YoutubeDownloader
 =================
 
-Download songs from youtube playlist..
+Download multiple songs from youtube playlist..
+
+
+Installation
+-----------
+
+    npm install
+
+Usage
+-----
+
+	npm start
+
+
+Enjoy :-)
+
