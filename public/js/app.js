@@ -159,9 +159,16 @@ var Downloader = function() {
     }
 
     // nowthing special
+    this.errorWhileDownloading = function(res) {
+
+        var text = $("#"+res.id).find("div").html()
+        alert("Youtube didn't allow us to download this video: "+ text + " .. But the rest will be there :-)");
+    }
+    // nowthing special
     this.downloadError = function(res) {
     }
 
+    socket.on('youtubeError', this.errorWhileDownloading);
     socket.on('downloadProgress', this.setDownloadProgress);
     socket.on('downloadError', te(this.downloadError));
     socket.on('downloadLink', te(this.setDownloadLink));

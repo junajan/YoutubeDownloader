@@ -62,13 +62,18 @@ exports.downloadSong = function(dir, id, cb) {
     var video = youtubedl('http://www.youtube.com/watch?v='+id,['--max-quality=18'],{ cwd: dir });
     var file = "";
 
+    video.on('error', function(err) {
+
+        console.log("This video is not available to be downloaded", id);
+        cb(false, 0);
+    });
+
     video.on('info', function(info) {
 
         video.pipe(fs.createWriteStream(file = dir+info.filename));
     });
     
     video.on("end", function() {
-
         cb(false, file);
     });
 }

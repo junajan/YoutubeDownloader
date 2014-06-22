@@ -89,9 +89,13 @@ var SocketApi = function() {
 
             YoutubeApi.downloadSong(LOC+"/", item, function(err, res) {
 
+                if(res == 0)
+                    socket.emit("youtubeError", {id: item});
+
                 incProgress();
                 done(err, res);
             });
+
         }
         
         // create archive folder
