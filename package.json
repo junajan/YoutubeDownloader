@@ -1,0 +1,43 @@
+{
+  "name": "YoutubePlaylist-Downloader",
+  "description": "Simple app to download multiple songs from youtube playlist at once.",
+  "version": "0.0.1",
+  "main": "./app.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -e 'html,js,ejs,css' app.js"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "async": "latest",
+    "body-parser": "latest",
+    "cheerio": "latest",
+    "colors": "*",
+    "connect": "latest",
+    "cookie-parser": "latest",
+    "easy-zip": "0.0.4",
+    "ejs": "latest",
+    "ejs-locals": "latest",
+    "express": "latest",
+    "express-ejs-layouts": "latest",
+    "express-error-handler": "latest",
+    "express-json": "latest",
+    "express-logger": "latest",
+    "express-method-override": "latest",
+    "express-zip": "^1.0.1",
+    "node-dir": "^0.1.5",
+    "reload": "latest",
+    "request": "latest",
+    "rimraf": "^2.2.8",
+    "socket.io": "latest",
+    "underscore": "latest",
+    "youtube-dl": "^1.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "author": {
+    "name": "Jan Juna",
+    "email": "mail@janjuna.cz"
+  }
+}

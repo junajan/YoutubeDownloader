@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html, body {
+    
+    height: 100%;
+    font-family: RobotoRegular, Arial;
+    width: 100%;
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+.clear {
+    clear: both;
+}
+
+.fleft {
+    
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+#all {
+    position:relative;
+    min-height:100%;
+    min-width: 960px;
+}
+
+.content {
+    padding-bottom: 128px;
+}
+
+.noline:hover {
+    
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+a.button1 {
+    
+    background-image: url("../img/btn_odejit.png");
+    width: 92px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;
+}
+
+a.button {
+    
+    font-size: 18px;
+    font-family: RobotoRegular;
+    background-image: url("../img/btn_prihlasit.png");
+    background-position: left top;
+    width: 141px;
+    height: 34px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+a.button:hover {
+    
+    color: #189D5C !important;
+    background-position: left bottom;
+    text-decoration: none;
+}
+
+a.button1:hover {
+    
+    background-position: center bottom;
+    color: #18B86E;
+    text-decoration: none;
+}
+
+input.button {
+    
+    background-color: transparent;
+    border-width: 0px;
+    background-image: url("../img/btn_odeslat.png");
+    background-position: left top;
+    width: 106px;
+    height: 42px;
+    cursor: pointer;
+    color: #18B86E;
+    vertical-align: top;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input.button:hover{
+    
+    color: white;
+    background-position: left bottom;
+}
+
+.width {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.foot {
+    width: 100%;
+    background-image: url("../img/bg_footer.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #3C403F;
+    height: 88px;
+    padding-top: 30px;
+    position:absolute;
+    bottom:0;
+}
+
+.foot a {
+    color: white;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+.foot .fleft {
+
+    margin-top: -10px;
+}
+
+.foot .fb_icon {
+    
+    background-image: url("../img/btn_facebook.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 43px;
+    height: 42px;
+    display: inline-block;
+}
+
+.foot .fb_icon:hover {
+    
+    background-position: bottom left;
+}
+
+.foot>div {
+    color: white;
+}
+
+h1 {
+    font-size: 56px;
+    color: black;
+    font-family: RobotoThin;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h1 a {
+    
+    color: inherit;
+    text-decoration: none !important;
+    
+}
+
+h2 {
+    font-size: 26px;
+    color: black;
+    font-family: RobotoRegular;
+
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 small {
+
+    font-family:  RobotoThin;
+    padding-left: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-js ul {
+    display:none;
+}
+
+.no-js:hover ul {
+    display:block;
+}
+
+
+.inputSize {
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    font-size: 30px;
+
+    text-align: left;
+    display: block;
+}
+
+.fancy_style .error {
+    color: red;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+div.list {
+    margin-top: 20px;
+
+    width: 780px;
+}
+
+li {
+    
+    padding: 3px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    float: left;
+    list-style:none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #EEEEEE;
+    height: 176px;
+    width: 181px;
+    word-wrap: break-word;
+}
+
+li:nth-child(4n) {
+
+    margin-right: 0px;
+}
+
+li img {
+
+    width: 181px;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+li div {
+    padding: 5px;
+}
+
+#downloadArea {
+
+    margin-bottom: 10px;
+    font-family: RobotoThin;
+}
