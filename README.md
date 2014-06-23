@@ -16,7 +16,7 @@ Usage
 
 	npm start
 
-or see in action: http://youtube-downloader.nodejs.cz/
+or see it in action: http://youtube-downloader.nodejs.cz/
 
 Enjoy :-)
 
